@@ -1,0 +1,303 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphPoints::id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 2,
+                  "endLine": 24,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphPoints::{ctor}",
+                  "decoratedName": "??0graphPoints@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphPoints::id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphPoints::out_num' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 2,
+                  "endLine": 24,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphPoints::{ctor}",
+                  "decoratedName": "??0graphPoints@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphPoints::out_num"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::from_id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::from_id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::to_id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::to_id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::speed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::speed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::cost_km' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::cost_km"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::to' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2,
+                  "endLine": 32,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@MIII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::to"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graph::numOfElements' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 2,
+                  "endLine": 58,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Graph::{ctor}",
+                  "decoratedName": "??0Graph@@QEAA@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Graph::numOfElements"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "44fdf19efaffcec9dbe5bdac031a4e9da65eacb4f2d7f63003ffbb8de56416b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rajmund/documents/egyetem/prog2/dijkstra/dijkstra/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "fd8e7dab8948dfb8dee280f7f9201aa279d36d083f8d5ff5d7b72911d97160f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rajmund/documents/egyetem/prog2/dijkstra/dijkstra/dijkstra.hpp"
+          },
+          "hashes": {
+            "sha-256": "e53c8d8d149eaaf14d21f0c53c4db3cc53fc3b3232ee3abfa5196ec315d007c7"
+          }
+        }
+      ]
+    }
+  ]
+}

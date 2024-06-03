@@ -1,0 +1,52 @@
+0: "Kapolna utca" 1[0.027,50], 2[0.21,30], 3[0.024,30]
+1: "Becsi ut" 3[0.014,30], 4[0.029,50]
+2: "Kapolna utca" 5[0.130,30], 6[0.120,30]
+3: "Kapolna utca" 7[0.028,30]
+4: "Becsi ut" 7[0.015,30], 11[0.081,50]
+5: "Tulipan utca" 7[0.15,30], 8[0.73,30]
+6: "Allomas utca" 9[0.18,35], 10[0.065,35]
+7: "Tulipan utca" -
+8: "Szelso utca/Hovirag utca" 11[0.16,30], 12[0.078,30]
+9: "Kisipar utca/Zsak utca" 13[0.05,30], 14[0.12,30]
+10: "Allomas utca/Harkaly utca" 15[0.081,30], 16[0.12,30]
+11: "Becsi ut/Hovirag utca" 17[0.081,50]
+12: "Szelso utca/Oskola utca" 18[0.075,30]
+13: "Zsak utca" -
+14: "Zoldlomb utca/Arvalanyhaj utca" 19[0.1,30], 20[0.1,30]
+15: "Harkaly utca/Rakoczi Ferenc utca" 21[0.14,30], 22[0.13,30], 23[0.078,30]
+16: "Allomas utca" 22[0.87,30], 24[0.088,30]
+17: "Becsi ut/Oskola utca" 18[0.1,30] 25[0.084,50]
+18: "Oskola utca/Rozsa utca" 26[0.07,30]
+19: "Zoldlomb utca/Dombhat utca" 24[0.15,30], 27[0.088,30], 28[0.1,30]
+20: "Arvalanyhaj utca/Siklo utca" 29[0.046,30], 30[0.28,30]
+21: "Rakoczi Ferenc utca" -
+22: "Rakoczi Ferenc utca" 31[0.16,30]
+23: "Harkaly utca/Rigo utca" 40[0.35,30], 41[0.24,30]
+24: "Somlyo koz/Allomas utca/Dombhat utca" 31[0.13,30], 32[0.15,60]
+25: "Becsi utca/Dozsa Gyorgy utca" 26[0.092,30]
+26: "Dozsa Gyorgy utca/Rozsa utca" -
+27: "Zoldlomb utca/Cseppko utca" 33[0.88,30], 34[0.092,30], 38[0.65,30]
+28: "Dombhat utca" 33[0.08,30] 35[0.098,30]
+29: "Siklo utca/Borostyan utca" 36[0.087,30], 28[0.056,30]
+30: "Arvalanyhaj utca" -
+31: "Somlyo koz/Rakoczi Ferenc utca" 37[0.084,30]
+32: "Allomas utca/Nagy-Somlyo utca" 37[0.11,30], 38[0.15,30], 39[0.086,30]
+33: "Dombhat utca/Cseppko utca" -
+34: "Cseppko utca" -
+35: "Dombhat utca" -
+36: "Borostyan utca" -
+37: "Somlyo koz/Nagy-Somlyo utca/Csevi utca" 38[0.11,30], 40[0.053,30], 42[0.18,30]
+38: "Zoldlomb utca/Nagy-Somlyo utca" 43[0.069,30], 44[0.083,30]
+39: "Allomas utca/Szent Istvan ut/Szivarvany utca" 44[0.15,30], 45[0.1,30]
+40: "Rigo utca/Nagy-Somlyo utca" 46[0.84,30]
+41: "Rigo utca" -
+42: "Csevi utca/Arpad vezer utja" 47[0.093,30], 48[0.17,30]
+43: "Nagy-Somlyo utca" -
+44: "Zoldlomb utca/Szivarvany utca" -
+45: "Szent Istvan ut/Liliom utca" 42[0.096,30], 47[0.15,30]
+46: "Nagy-Somlyo/Cinege utca" 49[0.35,30]
+47: "Szent Istvan utca/Arpad vezer utja" 50[0.15,30]
+48: "Csevi utca/Harangvirag utca" 50[0.11,30]
+49: "Cinege utca/Harkaly utca" 51[0.55,30]
+50: "Szent Istvan ut/Harkaly utca" -
+51: "Cinege utca" -

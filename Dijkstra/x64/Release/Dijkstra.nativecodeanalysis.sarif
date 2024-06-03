@@ -1,0 +1,2573 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphPoints::id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 2,
+                  "endLine": 24,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphPoints::{ctor}",
+                  "decoratedName": "??0graphPoints@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphPoints::id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphPoints::out_num' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 2,
+                  "endLine": 24,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphPoints::{ctor}",
+                  "decoratedName": "??0graphPoints@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphPoints::out_num"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::from_id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::from_id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::to_id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::to_id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::speed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::speed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::cost_km' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::cost_km"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'graphEdge::to' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 2,
+                  "endLine": 32,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "graphEdge::{ctor}",
+                  "decoratedName": "??0graphEdge@@QEAA@MIII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "graphEdge::to"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graph::numOfElements' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 2,
+                  "endLine": 58,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Graph::{ctor}",
+                  "decoratedName": "??0Graph@@QEAA@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Graph::numOfElements"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Dijkstra::sizeofBestw' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 11,
+                  "endLine": 25,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dijkstra::{ctor}",
+                  "decoratedName": "??0Dijkstra@@QEAA@AEBVGraph@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Dijkstra::sizeofBestw"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'distances'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 16,
+                  "endLine": 108,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dijkstra::Algo",
+                  "decoratedName": "?Algo@Dijkstra@@QEAAXII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'distances' is an array of 1 elements (8 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'indexOfLastVisited' receives the value of 'starter'"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'starter==goal' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'isFinished[min_ID]==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<this->arr[nowDoing].out_num' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<this->numOfElements')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'i==nowDoing' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 95,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'isFinished[i]' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'j<this->arr[nowDoing].out_num' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!wasIn')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'distances[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'distances'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 16,
+                  "endLine": 108,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dijkstra::Algo",
+                  "decoratedName": "?Algo@Dijkstra@@QEAAXII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'distances' is an array of 1 elements (8 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'min_ID' receives the value of 'starter'"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'starter==goal' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'isFinished[min_ID]==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'nowDoing' receives the value of 'min_ID'"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'nowDoing' is an In/Out argument to 'std::basic_ostream<char,std::char_traits<char> >::<<' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.33.31629\\include\\ostream:298)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<this->arr[nowDoing].out_num' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<this->numOfElements')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'i==nowDoing' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 95,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'isFinished[i]' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'j<this->arr[nowDoing].out_num' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!wasIn')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'distances[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 29,
+                  "endLine": 41,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dijkstra::Algo",
+                  "decoratedName": "?Algo@Dijkstra@@QEAAXII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'b.BestW'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 4,
+                  "endLine": 257,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BestWMaker",
+                  "decoratedName": "?BestWMaker@@YAXAEAVDijkstra@@PEAPEANII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 171,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 176,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 177,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'indexNow!=starter')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 179,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 180,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'tmp==before&&tmp==starter' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 188,
+                            "startColumn": 75
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 190,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 191,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 193,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'tmp==starter' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 188,
+                            "startColumn": 75
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!finishR')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 201,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 203,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 203,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 177,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('indexNow!=starter' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 213,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 214,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 215,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 216,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 217,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'indexNow!=starter')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<b.numOfElements+1' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 224,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 227,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'indexNow==2' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 230,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 231,
+                            "startColumn": 72
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!finishR')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'tmp==before&&tmp==starter' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 258,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'indexer' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 217,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'indexNow!=starter')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<b.numOfElements+1' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 224,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 227,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'indexNow==2' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 230,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 231,
+                            "startColumn": 72
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '!finishR')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'tmp==before&&tmp==starter' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'b.BestW[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Graph.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "44fdf19efaffcec9dbe5bdac031a4e9da65eacb4f2d7f63003ffbb8de56416b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Rajmund/Documents/Egyetem/Prog2/Dijkstra/Dijkstra/Dijkstra.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "acefc7abd9b4faacedd47241ff29d550f69acd5570c824aa87593783976f1311"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rajmund/documents/egyetem/prog2/dijkstra/dijkstra/dijkstra.hpp"
+          },
+          "hashes": {
+            "sha-256": "e53c8d8d149eaaf14d21f0c53c4db3cc53fc3b3232ee3abfa5196ec315d007c7"
+          }
+        }
+      ]
+    }
+  ]
+}
